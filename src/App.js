@@ -1,7 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
+import GetData from "./components/GetData";
 
-function App() {
-  return <div>Good luck dear students!</div>;
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <GetData />
+      </div>
+    );
+  }
 }
 
 export default App;
